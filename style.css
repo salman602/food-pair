@@ -7,58 +7,13 @@ body{
 
 .flex-container{
     display: flex;
-    /* margin-bottom: 100px; */
 }
 
 .half-width{
     width: 50%;
 }
 /* Header section css */
-/* .flex-items{
-    display: flex;
-}
-.header-section{
-    display: flex;
-    background: crimson;
-    padding: 12px 0;
-    position:sticky top;
-}
 
-.logo{
-    width: 50%;
-    margin: 0px 80px;
-}
-
-.logo img{
-    
-    font-size: 30px;
-    width: 100px;
-    position: relative;
-    top: 10px;
-}
-
-.menu{
-    width: 50%;
-}
-.menu-item{
-    display: flex;
-
-    
-}
-
-.menu-item li{
-    list-style: none;
-    
-    border: 1px solid transparent;
-    
-}
-.menu-item li a{
-    margin: 0 15px;
-    color: #fff;
-    text-decoration: none;
-    
-    transition: 0.5s;
-} */
 .header-section{
     position: fixed;
     top: 0;
@@ -72,6 +27,8 @@ body{
     margin-left: 50px;
     width: 30%;
     margin-top: 10px;
+    border: 1px solid crimson;
+    border-radius: 18px;
 }
 .header-menu{}
 .header-menu ul{}
@@ -144,3 +101,73 @@ body{
     font-weight: 400;
     padding: 15px 0 50px 0;
 }
+
+/* Recipies section css */
+.recipies-section{
+    padding: 50px 0;
+}
+.recipies-top{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.recipies-top h1{
+    font-size: 40px;
+}
+.recipies-top p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.recipies-bottom{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.item{
+    width: 29.3%;
+    background-color: #fff;
+    border-radius: 6%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 10px 10px 40px #444;
+}
+.item-image{
+    width: 90%;
+    padding-top: 18px;
+}
+.item-image img {
+    max-width: 100%;
+    border-radius: 10%;
+    padding-left: 18px;
+}
+
+.item-body{}
+.item-body h1{
+    font-size: 32px;
+}
+.item-body p {
+    font-size: 18px;
+    padding: 5px 10px;
+    font-weight: 500;
+    color: #767676;
+}
+/* social section css */
+
+.social-section{
+    padding: 50px 0;
+    width: 75%;
+    margin: auto;
+}
+
+.subscribers{
+    width: 33.3%;
+    margin: auto;
+    text-align: center;
+}
+.subscribers h1{
+    font-size: 32px;
+    margin-bottom: 0;
+}
+.subscribers p{}
