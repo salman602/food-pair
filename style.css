@@ -1,5 +1,4 @@
 
-
 body{
     font-family: 'Noto Sans KR', sans-serif;
     margin: 0;
@@ -23,6 +22,7 @@ body{
     background-color: crimson;
 }
 .header-logo{}
+
 .header-logo img {
     margin-left: 50px;
     width: 30%;
@@ -55,7 +55,7 @@ body{
     margin-bottom: -20px;
     font-weight: 700;
 }
-.top-body h1 span{
+.text-colored{
     color: rgb(207, 5, 46);
 }
 .top-body p {
@@ -131,7 +131,7 @@ body{
     border-radius: 6%;
     margin: auto;
     text-align: center;
-    box-shadow: 10px 10px 40px #444;
+    box-shadow: 10px 10px 40px #ddd;
 }
 .item-image{
     width: 90%;
@@ -157,8 +157,11 @@ body{
 
 .social-section{
     padding: 50px 0;
-    width: 75%;
+    width: 85%;
     margin: auto;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 10px 10px 40px #ddd;
 }
 
 .subscribers{
@@ -171,3 +174,37 @@ body{
     margin-bottom: 0;
 }
 .subscribers p{}
+
+/* Contact section css */
+.contact-form{}
+.contact-form h2 {
+    font-size: 30px;
+}
+.contact-section{
+    width: 85%;
+    margin: auto;
+    padding: 50px 0;
+}
+.custom-width{
+    width: 90%;
+    margin: 8px 0;
+    padding: 8px 0;
+    font-size: 16px;
+}
+
+/* Footer section css */
+footer{
+    padding: 50px 0;
+    background-color: #222;
+    color: #fff;
+}
+footer h1{
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 0;
+}
+footer p{
+    font-size: 18px;
+    text-align: center;
+}
+
